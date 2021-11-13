@@ -1,11 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using System.Diagnostics;
 using System.Windows.Forms;
 
 namespace WinformsReloaded
@@ -19,7 +13,7 @@ namespace WinformsReloaded
 
         private void tabControl1_SelectedIndexChanged(object sender, EventArgs e)
         {
-
+            Debug.WriteLine("User changed tab to {0}", this.tabControl1.SelectedTab?.Name);
         }
     }
 }
