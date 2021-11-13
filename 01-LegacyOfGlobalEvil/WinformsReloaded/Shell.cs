@@ -9,6 +9,8 @@ namespace WinformsReloaded
         public Shell()
         {
             InitializeComponent();
+
+            GodObject.MainForm = this;
         }
 
         private void tabControl1_SelectedIndexChanged(object sender, EventArgs e)
