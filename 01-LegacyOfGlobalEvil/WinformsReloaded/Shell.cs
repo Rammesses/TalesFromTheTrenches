@@ -14,6 +14,8 @@ namespace WinformsReloaded
         {
             this.logger = logger ?? throw new ArgumentNullException(nameof(logger));
             InitializeComponent();
+
+            GodObject.MainForm = this;
         }
 
         public Form MainForm => this;
