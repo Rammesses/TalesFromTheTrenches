@@ -7,6 +7,8 @@ namespace WinformsReloaded.Abstractions
     {
         public Form MainForm { get; }
 
+        public void Close();
+
         public event EventHandler Closed;
     }
 }
