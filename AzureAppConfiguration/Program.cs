@@ -12,6 +12,7 @@ var builder = new HostBuilder()
             config.AddJsonFile("appsettings.json", optional: true);
             config.AddEnvironmentVariables();
             config.AddUserSecrets("7d524cf2-3bc4-4016-b4b3-878f55592b4a");
+
             var settings = config.Build();
 
             config.AddAzureAppConfiguration(options =>
