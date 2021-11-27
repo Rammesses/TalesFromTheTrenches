@@ -63,6 +63,16 @@ namespace Ch1_WinformsReloaded.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        public static System.Drawing.Bitmap DDD2021_Logo {
+            get {
+                object obj = ResourceManager.GetObject("DDD2021 Logo", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         public static System.Drawing.Bitmap DevSouthCoastLogo {
             get {
                 object obj = ResourceManager.GetObject("DevSouthCoastLogo", resourceCulture);
